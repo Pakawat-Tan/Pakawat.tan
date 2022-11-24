@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofilo</title>
+
+    <!-- Link css in apis -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Link css in localfile -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/scrollbar.css">
+    <link rel="stylesheet" href="./css/navigator.css">
+    <link rel="stylesheet" href="./css/timeline.css">
+    <link rel="stylesheet" href="./css/blur.css" media="screen">
+
+</head>
+
+<body>
+
+    <!-- Navegatorbar right on page -->
+    <nav>
+        <ul>
+            <li class="select-List active">
+                <a href="#Home">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="nav-item">Home</span>
+                </a>
+            </li>
+
+            <li class="select-List">
+                <a href="#About">
+                    <i class="fa-solid fa-id-card-clip"></i>
+                    <span class="nav-item">About</span>
+                </a>
+            </li>
+
+            <li class="select-List">
+                <a href="#Education">
+                    <i class="fa-solid fa-school"></i>
+                    <span class="nav-item">Education</span>
+                </a>
+            </li>
+
+            <li class="select-List">
+                <a href="#Contact">
+                    <i class="fa-solid fa-address-book"></i>
+                    <span class="nav-item">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Section one : Top page  -->
+    <div class="Home-Section" id="Home">
+        <div class="content">
+            <h3>สวัสดี! ฉันชื่อ</h3>
+            <h1>ภคัวต
+                <span>ตันยาภิรมย์</span>
+            </h1>
+        </div>
+    </div>
+
+    <!-- Section two : About -->
+    <section class="Profile-Section" id="About">
+        <div class="mainProfile">
+            <img class="blur" id="imageProfile" src="./src/CHA_4183.png" />
+            <div class="Profile-text">
+                <h1>About Me</h1>
+                <br />
+                <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, recusandae
+                    consequatur corrupti
+                    possimus dignissimos qui asperiores obcaecati odio dicta itaque alias accusantium est. Magnam porro
+                    dolorum perferendis optio reprehenderit cupiditate.
+                </p>
+                <br />
+                <h3>
+                    <span>ชื่อ : </span>
+                    <span class="data-about">ภควัต ตันยาภิรมย์</span>
+                </h3>
+                <h3>
+                    <span>ชื่อเล่น : </span>
+                    <span class="data-about">แบงค์</span>
+                </h3>
+                <h3>
+                    <span>วันเกิด : </span>
+                    <span class="data-about">12 กันยายน 1998</span>
+                    <label class="data-birtday" id="BirtdayYear"></label>
+                </h3>
+                <h3>
+                    <span>เพศ : </span>
+                    <i class="fa-solid fa-mars"></i>
+                    <span class="data-about">ชาย</span>
+                </h3>
+            </div>
+            <br>
+            <div class="Skill-text">
+                <h1>ทักษะ</h1>
+                <h4>
+                    <ul class="list-skill">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>ReactJS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </h4>
+            </div>
+
+            <div class="Language-text">
+                <h1>ภาษา</h1>
+                <h4>
+                    <ul class="list-language">
+                        <li>ไทย</li>
+                        <li>อังกฤษ</li>
+                    </ul>
+                </h4>
+            </div>
+
+            <div class="Interested-text">
+                <h1>ความสนใจ</h1>
+                <h4>
+                    <ul class="list-Interested">
+                        <li>Technology</li>
+                        <li>DIY</li>
+                        <li>Microcontroller</li>
+                        <li>Artificial Intelligence</li>
+                    </ul>
+                </h4>
+            </div>
+
+            <div class="hobby-text">
+                <h1>งานอดิเรก</h1>
+                <h4>
+                    <ul class="list-hobby">
+                        <li>ดูหนัง</li>
+                        <li>เล่นเกม</li>
+                        <li>อ่านงานเกี่ยวกับเทคโนโลยี</li>
+                    </ul>
+                </h4>
+            </div>
+
+            <div class="Resume-download">
+                <h5>Download Resume</h5>
+                <button type="button" class="btn-resume">Download</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section four : Education recode page -->
+    <section class="Education-Section" id="Education">
+        <div class="main-Timeline">
+
+            <div class="Container left-container">
+                <div class="timeline-text">
+                    <p>2020</p>
+                </div>
+                <div class="text-box">
+                    <h2>Gachelor degree</h2>
+                    <small>2016-2020</small>
+                    <h3>Rajamangala University of Technology Phra Nakhon</h3>
+                    <p>Faculty of Science and Technology</p>
+                    <p>Major Computer science</p>
+                    <p>GPAX : 2.80</p>
+                </div>
+            </div>
+
+            <div class="Container right-container">
+                <div class="timeline-text">
+                    <p>2015</p>
+                </div>
+                <div class="text-box">
+                    <h2>Grade 10-12</h2>
+                    <small>2012-2015</small>
+                    <h3>Suankularb Wittayarai Nonthaburi School</h3>
+                    <p>Major Math-Eng</p>
+                    <p>GPAX : 2.73</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section five : Contact page -->
+    <footer>
+        <section class="Foorter-Section" id="Contact">
+
+        </section>
+    </footer>
+
+</body>
+<script src="./js/navigator.js"></script>
+<script src="./js/GetImage.js"></script>
+<script src="./js/Cal_age.js"></script>
+
+</html>

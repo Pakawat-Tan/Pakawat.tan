@@ -1,0 +1,60 @@
+body{
+    background: #dfe9f5;
+}
+
+/* Navigatorbar style form*/
+nav{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(255,255,255,.2);
+    width: 90px;
+    transition: width .2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    position: fixed;
+}
+
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    color: rgb(64, 64, 64);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px ;
+}
+
+nav ul li a i{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+
+/* Mouse hover */
+nav:hover{
+    width: 280px;
+    transition: all .5s ease;
+    background: rgba(255,255,255,1);
+}
+
+nav ul li a:hover{
+    background: rgb(253, 64, 195);
+}
+
+
+/* Active list */
+.active{
+    background: rgb(253,  120   ,50);
+}
