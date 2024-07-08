@@ -1,0 +1,57 @@
+nav {
+  text-align: center;
+  padding: 10px 10px;
+  flex-grow: 1;
+}
+
+nav .nav-container {
+  display: flex;
+  list-style-type: none;
+  margin: 50px;
+  padding: 0px 60px 0px;
+  height: 30px;
+}
+
+nav div ul li {
+  display: inline;
+}
+
+/* Logon icon */
+
+nav div a {
+  text-decoration: none;
+  color: rgb(188, 188, 188);
+  font-size: 21px;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Navigator bar right */
+nav div .right {
+  margin-left: auto;
+  height: 40px;
+}
+
+nav div .right li {
+  padding: 10px 10px;
+}
+
+/* Icon style */
+/* nav div .right li a i{
+    font-size: 24px;
+    padding: 0px 0px 0px;
+}
+ */
+
+/* Hover */
+nav div .right li a:hover {
+  background-color: rgba(128, 128, 128, 0.3);
+  color: rgb(255, 255, 255);
+}
+
+nav div .right li .active {
+  background-color: rgba(128, 128, 128, 0.3);
+  color: rgb(255, 255, 255);
+}

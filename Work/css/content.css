@@ -1,0 +1,10 @@
+
+article .container {
+  display: block;
+  position: relative;
+}
+
+article .container .row {
+  display: inline;
+}
+

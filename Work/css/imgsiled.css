@@ -1,0 +1,63 @@
+article .container .row .image-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+article .container .row .image-container img {
+  width: 93%;
+  height: 600px;
+}
+
+article .container .row .image-container .mySlides {
+  text-align: center;
+  display: none;
+}
+
+article div .row .image-container .mySlides .text-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-115%, -50%);
+  color: #fff;
+  font-size: 20px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 500px;
+}
+
+article div .row .image-container .dot-style .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+article div .row .image-container .dot-style {
+  text-align: center;
+  transform: translate(0%, -150%);
+}
+
+article div .row .image-container .active,
+.dot:hover {
+  background-color: #717171;
+}
+
+article div .row .image-container .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
